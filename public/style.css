@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f8f8f8;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.input_text {
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.submit {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background: #0056b3;
+}
+
+#weatherCard {
+  width: 60%;
+  background: #e7e7e7;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
